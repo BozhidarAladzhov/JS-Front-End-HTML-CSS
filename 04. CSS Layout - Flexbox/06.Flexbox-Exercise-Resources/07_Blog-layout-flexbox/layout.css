@@ -1,0 +1,36 @@
+div.page{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50em;
+    gap: 2em;
+   
+}
+
+body{
+    padding: 2em;
+}
+
+
+
+.align-right{
+    display: block;
+    float: right;
+    margin: 0 1em;
+}
+
+.align-left{
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+.page > main{
+    flex: 1 0 65%;
+
+}
+
+.page > aside {
+    flex: 1 0 25%;
+}
+
+
